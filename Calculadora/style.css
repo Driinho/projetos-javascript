@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(57, 16, 124);
+}
+
+.calculadora {
+    display: flex;
+    align-items: center;
+    background-color: rgb(57, 16, 124);
+    flex-direction: column;
+    /* height: 100vh; */
+    justify-content: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.botao-numeros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.number {
+    width: 20%;
+    font-family: 'Roboto';
+    margin: 4px;
+    height: 6vh;
+    background-image: radial-gradient(
+        circle farthest-corner at 92.3% 71.5%,
+        rgb(3, 18, 39) 0%,
+        rgb(1, 14, 50) 90%
+    );
+    color: white;
+    font-size: 2rem;
+    border: solid 2.5px white;
+    cursor: pointer;
+    border-radius: 3%;
+}
+
+.number:hover {
+    background-image: radial-gradient(
+        circle farthest-corner at 92.3% 71.5%,
+        rgb(1, 13, 31) 0%,
+        rgb(0, 8, 31) 90%
+    );
+}
+
+.number:active {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+#valor {
+    font-size: 4rem;
+    margin-right: 5%;
+    font-family: 'Roboto';
+}
+.tela-valor {
+    display: flex;
+    height: 10vh;
+    background-color: lightgray;
+    align-items: center;
+    margin-bottom: 7px;
+    justify-content: flex-end;
+    width: 42vw;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+
+footer {
+    font-size: 20px;
+
+    height: 15vh;
+}
+
+.navbar {
+    list-style: none;
+    background-color: #160a24;
+    width: 100%;
+    height: 9vh;
+    margin-bottom: 10vh;
+    border-bottom: 3px solid rgb(161, 132, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar h1 {
+    color: rgb(250, 250, 250);
+    font-size: 3rem;
+}
