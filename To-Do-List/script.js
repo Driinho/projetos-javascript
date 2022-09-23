@@ -8,7 +8,7 @@ document.querySelector('#salvar').onclick = function() {
                     ${document.querySelector('#novaTarefa input').value}
                 </span>
                 <button class="deletar">
-                    <i>Apagar</i>
+                    <i class="far fa-trash-alt"></i>
                 </button>
             </div>
         `;
