@@ -7,7 +7,7 @@
 }
 body{
     height: 100vh;
-    background: #066acd;
+    background: #6d06cd;
 }
 .container{
     width: 40%;
@@ -72,9 +72,9 @@ body{
     border-radius: 5px;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #939697;
+    border: 1px solid #959397;
     cursor: pointer;
-    background-color: #c5e1e6;
+    background-color: #f0f6f7;
     height: 50px;
     margin-bottom: 8px;
     padding: 5px 10px;
@@ -87,7 +87,7 @@ body{
 }
 
 .tarefa button{
-    background-color: #0a2ea4;
+    background-color: #e21313;
     color: #ffffff;
     border: none;
     cursor: pointer;
